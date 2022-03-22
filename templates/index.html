@@ -11,16 +11,17 @@
 </head>
 <body>
 <header>
+    <div class="headerback"></div>
     <div class="logo">
         <a href="#"><img class="logo" src="{{ url_for('static', filename='img/logo.png') }}" alt="Письма мастера дзен"></a>
     </div>
-    <div class="menu">
-        <a class="aboutbut" href="#">О проекте</a>
-        <a class="helpbut" href="#">Поддержать проект</a>
+    <div>
+        <a class="aboutbut" href="/about">О проекте</a>
+        <a class="helpbut" href="/donate">Поддержать проект</a>
     </div>
 </header>
 <div>
-    <h1>Не получается купить консоль или видеокарту? Мы знаем, где их искать, и поможем тебе</h1>
+    <h1 class="maintext">Не получается купить консоль или видеокарту? Мы знаем, где их искать, и поможем тебе</h1>
     <h2>
         Откуда такая уверенность?
 За время работы мы зафиксировали тысячи возможностей купить дефицитные товары в разных магазинах и самыми разными способами. Наша команда знает, куда смотреть, чтобы ничего не пропустить, и круглосуточно следит за поставками. Но главное – у нас есть большое комьюнити, которое не позволит ничего упустить.
@@ -29,9 +30,15 @@
 <div>
     <a href="#" class="xboxbut"><center>Xbox</center></a>
     <a href="# "class="switchbut"><center>Switch</center></a>
+    <a href="# "class="ps5but"><center>Play Station 5</center></a>
+
 
 
     </a>
 </div>
+<dib>
+    <img class="hero" src="{{ url_for('static', filename='img/hero.png') }}" alt="">
+
+</dib>
 </body>
 </html>
