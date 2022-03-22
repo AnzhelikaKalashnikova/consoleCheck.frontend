@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <title>Поддержать проект</title>
+</head>
+<body>
+<header>
+    <div class="headerback"></div>
+    <div class="logo">
+        <a href="/"><img class="logo" src="{{ url_for('static', filename='img/logo.png') }}" alt="Письма мастера дзен"></a>
+    </div>
+    <div>
+        <a class="aboutbut" href="/about">О проекте</a>
+        <a class="helpbut" href="/donate">Поддержать проект</a>
+    </div>
+</header>
+
+</body>
+</html>
