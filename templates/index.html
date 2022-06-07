@@ -6,12 +6,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Мониторинг консолей нового поколения.</title>
 
 </head>
 <body>
 <header>
-    <div class="headerback"></div>
+
     <div class="logo">
         <a href="#"><img class="logo" src="{{ url_for('static', filename='img/logo.png') }}" alt="Письма мастера дзен"></a>
     </div>
@@ -30,7 +31,7 @@
 <div>
     <a href="#" class="xboxbut"><center>Xbox</center></a>
     <a href="# "class="switchbut"><center>Switch</center></a>
-    <a href="# "class="ps5but"><center>Play Station 5</center></a>
+    <a href="/playstation5"class="ps5but"><center>Play Station 5</center></a>
 
 
 
