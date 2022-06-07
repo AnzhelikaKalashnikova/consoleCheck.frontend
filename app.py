@@ -14,6 +14,10 @@ def about():
 def donate():
     return render_template("donate.html")
 
+@app.route('/playstation5')
+def ps5page():
+    return render_template("ps5page.html")
+
 if __name__ == "__main__":
     app.run(debug=True)
 
